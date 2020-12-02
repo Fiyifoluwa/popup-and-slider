@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/29.jpg" alt="user">
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>My Website</h1>
+
+    <p>This is to see how the modal menu and slider menu work!</p>
+
+    <button class="cta-btn" id="open">Sign Up</button>
+  </header>
+
+  <div class="container">
+    <h2>What is this Website for?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae quibusdam accusantium ducimus ex recusandae, enim placeat veritatis nostrum in laboriosam labore. Voluptate nam cupiditate necessitatibus nulla doloribus ad dolorum?</p>
+    <p>The whole poin is to build a signup section that pops up on the page and a navbar that is minimized to the left of the page. Assumenda nihil, unde placeat quasi illo hic necessitatibus iste! Vitae, inventore placeat.</p>
+
+    <h2>Tell Me More</h2>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, quam. Ullam dolores asperiores quisquam corporis suscipit ducimus obcaecati. Atque, provident quos accusamus quod omnis nostrum, distinctio dolor ipsa itaque illo nihil labore. Aliquid facere suscipit, dicta quam libero quia rem.</p>
+
+    <h2>Benefits</h2>
+    <ul>
+      <li>Pleasing aesthetics</li>
+      <li>Great functionality</li>
+      <a href="mailto: fiyifoluwa@outlook.com">Email me for work! ;-)</a>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero odit animi laborum quos vel ratione magni minus tempora, quis laboriosam dolorem at velit possimus quaerat incidunt sint ut repellendus dicta? Quos voluptatem similique aspernatur eveniet, cupiditate quasi exercitationem veritatis magni sapiente nemo possimus, aliquid fugit ab assumenda optio eos, numquam quibusdam natus cumque sed corrupti minus a animi nisi? Maxime excepturi sit saepe! Ex at, voluptas quos deleniti accusantium nesciunt?</p>
+  </div>
+
+  <!-- modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Register with us to get offers, support and more.</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name" class="form-input">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email" class="form-input">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" class="form-input">
+          </div>
+          <div>
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" placeholder="Confirm Password" class="form-input">
+          </div>
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
